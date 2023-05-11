@@ -1,0 +1,121 @@
+
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+body {
+    margin: 0%;
+    background-image: linear-gradient(130deg, rgba(245, 240, 240, 0.6), rgb(225, 225, 227))
+    
+}
+
+.headertext {
+    text-align: center;
+    width: 90%;
+    color: rgb(6, 7, 7);
+    font-size: 40px;
+
+
+}
+
+
+
+.container {
+
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+    /* border: 2px solid red;   */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+
+
+/* @media (min-width 800px) {
+    .container {
+        flex-direction: column;
+    } */
+    
+} 
+     
+
+
+.registercontainer{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: fit-content;
+    height: 100%;
+    
+}
+
+.clientregister {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    border-top: 20px solid rgb(118, 138, 118) ;
+    border-bottom: 2px solid rgb(56, 65, 56);
+    border-radius: 100px;
+
+    
+}
+
+.clientdetails {
+    /* border: 2px solid yellow; */
+    width: calc(100% - 600px);
+    overflow-y: scroll;
+
+}
+
+
+input {
+    width: 90%;
+    margin: 10px 0px 70px 0px;
+    height: 70px;
+    font-size: 26px;
+    padding: 10px;
+    border-radius: 10px;
+    outline-color: rgb(126, 160, 194) ;
+}
+
+.btn {
+    width: 60%;
+    height: 60px;
+    border-radius: 25px;
+    color: rgb(237, 237, 243);
+    font-size: 30px;
+    background-color: rgb(36, 42, 45);
+}
+
+
+.jsdiv {
+
+    background-image:  linear-gradient(130deg, rgb(128, 128, 128, 0.6), rgb(83, 83, 85));
+    color: rgb(6, 7, 7);
+    /* background-color:rgb(126, 128, 129); */
+    /* border: 2px pink solid; */
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    color:  rgb(237, 237, 243);;
+
+
+}
+
+.jsclientname {
+
+
+}
+
+.jsclientemail {
+
+}
